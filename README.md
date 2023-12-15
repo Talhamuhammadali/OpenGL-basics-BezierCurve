@@ -13,8 +13,7 @@ This repository documents my journey in High Performance Computing (HPC) using O
   - User interaction for control points manipulation.
 - **Directory:** `Basic_Bezier_Curves/`
   - [More Details](./Basic_Bezier_Curves/README.md)
-- How to Run: [Instructions on running the project]
-
+    
 ### 2. B-Splines
 
 - Description: Extension of the project to handle B-splines.
