@@ -1,7 +1,7 @@
 # HPC-OpenGL Repository
 
 This repository documents my journey in High Performance Computing (HPC) using OpenGL, showcasing a progression of projects exploring various graphics and computational concepts.
-# Requirements
+## Requirements
 -GLFW:  This is to generate the window. My goal is to learn OpenGL not waste time one genrating windows.
 ```
   sudo apt-get install libglfw3-dev
