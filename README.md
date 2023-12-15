@@ -20,7 +20,7 @@ This repository documents my journey in High Performance Computing (HPC) using O
 - Features:
   - Rendering and manipulation of B-spline curves.
   - Comparison with Bezier curves.
-**Directory:** `B_Splines/`
+- **Directory:** `B_Splines/`
   - [More Details](./B_Splines/README.md)
 
 ### 3. Surface Form B-Splines
