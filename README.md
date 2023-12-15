@@ -7,7 +7,7 @@ This repository documents my journey in High Performance Computing (HPC) using O
   sudo apt-get install libglfw3-dev
 ```
 - GLAD: This is to load the opengl from drivers.
-- Guid to setup both on [windows](https://www.youtube.com/watch?v=uO__ntYT-2Q)
+- Guid to setup both on [windows](https://www.youtube.com/watch?v=Y4F0tI7WlDs)
 - Guid to setup both on [Linux](https://www.youtube.com/watch?v=LxEFn-cGdE0)
 ## Projects
 
