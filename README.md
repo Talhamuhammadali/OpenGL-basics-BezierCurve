@@ -1,7 +1,8 @@
 # HPC-OpenGL Repository
 
 This repository documents my journey in High Performance Computing (HPC) using OpenGL, showcasing a progression of projects exploring various graphics and computational concepts.
-
+# Requirements
+-GLFW: This is to generate the window where all our action occurs. My goal is to learn 
 
 ## Projects
 
