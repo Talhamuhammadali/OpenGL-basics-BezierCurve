@@ -20,7 +20,8 @@ This repository documents my journey in High Performance Computing (HPC) using O
 - Features:
   - Rendering and manipulation of B-spline curves.
   - Comparison with Bezier curves.
-- How to Run: [Instructions on running the project]
+**Directory:** `B_Splines/`
+  - [More Details](./B_Splines/README.md)
 
 ### 3. Surface Form B-Splines
 
@@ -28,7 +29,8 @@ This repository documents my journey in High Performance Computing (HPC) using O
 - Features:
   - Rendering and manipulation of surface forms.
   - Exploration of different surface types.
-- How to Run: [Instructions on running the project]
+- **Directory:** `Surface_Form_B_Splines/`
+  - [More Details](./Surface_Form_B_Splines/README.md)
 
 ### 4. Parametric Modeling
 
@@ -36,7 +38,8 @@ This repository documents my journey in High Performance Computing (HPC) using O
 - Features:
   - Implement parametric surfaces like Torus, Sphere, etc.
   - User interaction for dynamic surface creation.
-- How to Run: [Instructions on running the project]
+- **Directory:** `Parametric_Modeling/`
+  - [More Details](./Parametric_Modeling/README.md)
 
 This repository serves as a living documentation of my journey into HPC using OpenGL. Each project represents a milestone in my learning process and showcases my growth in the field. Thank you for visiting!
 
