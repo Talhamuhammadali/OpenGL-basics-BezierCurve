@@ -3,12 +3,12 @@
 This repository documents my journey in High Performance Computing (HPC) using OpenGL, showcasing a progression of projects exploring various graphics and computational concepts.
 ## Setup
 - GLFW:  This is to generate the window. My goal is to learn OpenGL and not waste time one genrating windows therefor this library comes in handy.
-```
-  sudo apt-get install libglfw3-dev
-```
 - GLAD: This is to load the opengl from drivers.
 - Guid to setup both on [windows](https://www.youtube.com/watch?v=Y4F0tI7WlDs)
 - Guid to setup both on [Linux](https://www.youtube.com/watch?v=LxEFn-cGdE0)
+  ```
+  sudo apt-get install libglfw3-dev
+  ```
 ## Projects
 
 ### 1. Basic Bezier Curves
