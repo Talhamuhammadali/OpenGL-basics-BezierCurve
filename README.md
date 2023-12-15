@@ -2,6 +2,46 @@
 
 This repository documents my journey in High Performance Computing (HPC) using OpenGL, showcasing a progression of projects exploring various graphics and computational concepts.
 
+# Structre
+HPC-OpenGL/
+├── Basic_Bezier_Curves/
+│   ├── src/
+│   │   ├── main.cpp
+│   │   ├── bezier.cpp
+│   │   └── ... (other source files)
+│   ├── assets/        (optional: store textures, models, etc.)
+│   ├── README.md     (project-specific README)
+│   └── screenshots/  (optional: for visuals or demo snapshots)
+├── B_Splines/
+│   ├── src/
+│   │   ├── main.cpp
+│   │   ├── b_splines.cpp
+│   │   └── ... (other source files)
+│   ├── assets/
+│   ├── README.md
+│   └── screenshots/
+├── Surface_Form_B_Splines/
+│   ├── src/
+│   │   ├── main.cpp
+│   │   ├── surface_forms.cpp
+│   │   └── ... (other source files)
+│   ├── assets/
+│   ├── README.md
+│   └── screenshots/
+├── Parametric_Modeling/
+│   ├── src/
+│   │   ├── main.cpp
+│   │   ├── parametric_surfaces.cpp
+│   │   └── ... (other source files)
+│   ├── assets/
+│   ├── README.md
+│   └── screenshots/
+├── ... (Other projects as per your progression)
+│
+├── Learning_Journal/   (optional: Wiki or folder with documentation)
+├── LICENSE             (your chosen license)
+└── README.md           (main repository README)
+
 ## Projects
 
 ### 1. Basic Bezier Curves
