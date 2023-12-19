@@ -44,7 +44,7 @@ int factorial(int n){
 
 Points calc_bezier(USER_PROMPT data, float t){
     Points loc;
-    loc.x, loc.y = 0;
+    loc.x = loc.y = 0;
     int n = data.order;
     for(int i = 0; i < n+1; ++i){
         float binomial, bernstien;
