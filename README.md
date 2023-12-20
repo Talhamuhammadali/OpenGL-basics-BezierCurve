@@ -18,7 +18,7 @@ This repository documents my journey in High Performance Computing (HPC) using O
   - Provide Order and control points
   - Render Bezier curves.
 - **Example**:
-    - Use order 3 and following control points
+    - Use order 3 and following control points to get sin wave
     - Stating Point = (0.0 , 0.0) , End Point = (1.0, 0.0)
     - Mid Points: (0.25, 1.0 ), (0.75, 1.0) 
     - This will genarate the following:
