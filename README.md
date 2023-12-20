@@ -26,7 +26,7 @@ This repository documents my journey in High Performance Computing (HPC) using O
 
 - **Try you self**:
   - Use following Point to get the plot shown: (0.0, 0.3), (0.1, 0.5), (0.3, -0.1), (0.4, 0.0) with order 3
-   ![image](https://github.com/Talhamuhammadali/HPC-OpenGL/assets/46277852/edcec322-7bf4-4742-8845-6957bca1cf87)
+     ![image](https://github.com/Talhamuhammadali/HPC-OpenGL/assets/46277852/edcec322-7bf4-4742-8845-6957bca1cf87)
 
     
 ### 2. B-Splines
