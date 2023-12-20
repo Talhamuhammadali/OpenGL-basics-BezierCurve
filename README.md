@@ -1,6 +1,7 @@
 # HPC-OpenGL Repository
 
-This repository documents my journey in High Performance Computing (HPC) using OpenGL, showcasing a progression of projects exploring various graphics and computational concepts.
+This repository documents my journey in High Performance Computing (HPC). This repository is showcasing a progression of projects exploring various graphics and computational concepts using OpenGL.
+OpenGL, although a powerful graphics library used primarily for rendering 2D and 3D graphics, isn't directly related to High-Performance Computing (HPC). However, certain aspects of OpenGL projects provide tranferable skills which include
 ## Setup
 - GLFW:  This is to generate the window. My goal is to learn OpenGL and not waste time one genrating windows therefor this library comes in handy.
 - GLAD: This is to load the opengl from drivers.
