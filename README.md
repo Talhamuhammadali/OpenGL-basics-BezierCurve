@@ -14,11 +14,20 @@ This repository documents my journey in High Performance Computing (HPC) using O
 ### 1. Basic Bezier Curves
 
 - Description: Implementation of basic Bezier curves using OpenGL.
-- Features:
+- How to use:
+  - Provide Order and control points
   - Render Bezier curves.
-  - User interaction for control points manipulation.
-- **Directory:** `Basic_Bezier_Curves/`
-  - [More Details](./Basic_Bezier_Curves/README.md)
+- **Example**:
+    - Use order 3 and following control points
+    - Stating Point = (0.0 , 0.0) , End Point = (1.0, 0.0)
+    - Mid Points: (0.25, 1.0 ), (0.75, 1.0) 
+    - This will genarate the following:
+      ![image](https://github.com/Talhamuhammadali/HPC-OpenGL/assets/46277852/0265da52-f0c6-4648-ad42-12b9e9ed4b1b)
+
+- **Try you self**:
+  - Use following Point to get the plot shown: (0.0, 0.3), (0.1, 0.5), (0.3, -0.1), (0.4, 0.0) with order 3
+ ![image](https://github.com/Talhamuhammadali/HPC-OpenGL/assets/46277852/edcec322-7bf4-4742-8845-6957bca1cf87)
+
     
 ### 2. B-Splines
 
