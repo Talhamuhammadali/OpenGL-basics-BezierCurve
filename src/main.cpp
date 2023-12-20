@@ -34,27 +34,21 @@ USER_PROMPT process_user_input(){
     return inputs;
 }
 
-int factorial(int n){
-    int fact = 1;
-    for(size_t i = 1 ; i < n; ++i) {
-        fact *= i;
+Points calc_bezier(const std::vector<Points>& control_points, float t) {
+    std::vector<Points> points = control_points;
+    int n = static_cast<int>(points.size());
+
+    for (int k = 1; k < n; ++k) {
+        for (int i = 0; i < n - k; ++i) {
+            points[i].x = (1 - t) * points[i].x + t * points[i + 1].x;
+            points[i].y = (1 - t) * points[i].y + t * points[i + 1].y;
+        }
     }
-    return fact;
+
+    return points[0];
 }
 
-Points calc_bezier(USER_PROMPT data, float t){
-    Points loc;
-    loc.x = loc.y = 0;
-    int n = data.order;
-    for(int i = 0; i < n+1; ++i){
-        float binomial, bernstien;
-        binomial = factorial(n)/(factorial(i)*factorial(n-i));
-        bernstien = binomial * pow(t, i) * pow((1-t), (n-i));
-        loc.x += bernstien * data.control_points[i].x;
-        loc.y += bernstien * data.control_points[i].y;
-    }
-    return loc;
-}
+
 void framebuffer_size_callback(GLFWwindow* window, int width, int height) {
     glViewport(0, 0, width, height);
 }
@@ -97,11 +91,11 @@ int render(USER_PROMPT data){
         // glEnd();
         glClear(GL_COLOR_BUFFER_BIT);
         glBegin(GL_LINE_STRIP);
-        for(int t = 0; t < 1000; ++t){
+        for(int t = 0; t < 100; ++t){
             glColor3f(1.0f, 0.0f, 0.0f);
             float normalized_t = t/ 100.0f;
             Points pen;
-            pen = calc_bezier(data, normalized_t);
+            pen = calc_bezier(data.control_points, normalized_t);
             std::cout << "Time:"<< t << "(" << pen.x << "," << pen.y << ")" <<std::endl;
             glVertex2f(pen.x, pen.y);
         }       
