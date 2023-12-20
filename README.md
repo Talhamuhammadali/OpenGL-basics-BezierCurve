@@ -4,8 +4,8 @@ This repository documents my journey in High Performance Computing (HPC) using O
 ## Setup
 - GLFW:  This is to generate the window. My goal is to learn OpenGL and not waste time one genrating windows therefor this library comes in handy.
 - GLAD: This is to load the opengl from drivers.
-- Guid to setup both on [windows](https://www.youtube.com/watch?v=Y4F0tI7WlDs)
-- Guid to setup both on [Linux](https://www.youtube.com/watch?v=LxEFn-cGdE0)
+- Guide to setup both on [windows & linux]([https://www.youtube.com/watch?v=Y4F0tI7WlDs](https://www.youtube.com/watch?v=4m9RHfdUU_M&list=PLn3eTxaOtL2PHxN8EHf-ktAcN-sGETKfw&index=7))
+- Additional Linux command
   ```
   sudo apt-get install libglfw3-dev
   ```
