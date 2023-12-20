@@ -25,7 +25,8 @@ This repository documents my journey in High Performance Computing (HPC) using O
       ![image](https://github.com/Talhamuhammadali/HPC-OpenGL/assets/46277852/0265da52-f0c6-4648-ad42-12b9e9ed4b1b)
 
 - **Try you self**:
-  - Use following Point to get the plot shown: (0.0, 0.3), (0.1, 0.5), (0.3, -0.1), (0.4, 0.0) with order 3
+    - Use following Point to get the plot shown: (0.0, 0.3), (0.1, 0.5), (0.3, -0.1), (0.4, 0.0) with order 3.
+      
      ![image](https://github.com/Talhamuhammadali/HPC-OpenGL/assets/46277852/edcec322-7bf4-4742-8845-6957bca1cf87)
 
     
