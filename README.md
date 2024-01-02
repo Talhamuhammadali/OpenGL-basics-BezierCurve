@@ -20,7 +20,7 @@ This repository showcases a basic implementation of rendering a Bezier curve usi
   ```
 ## Projects
 
-###Basic Bezier Curves
+### Basic Bezier Curves
 
 - Description: Implementation of basic Bezier curves using OpenGL.
 - How to use:
