@@ -1,7 +1,15 @@
-# HPC-OpenGL Repository
+# Basic Bezier Curve Renderer using OpenGL
 
-This repository documents my journey in High Performance Computing (HPC). This repository is showcasing a progression of projects exploring various graphics and computational concepts using OpenGL.
-OpenGL, although a powerful graphics library used primarily for rendering 2D and 3D graphics, isn't directly related to High-Performance Computing (HPC). However, certain aspects of OpenGL projects provide tranferable skills such as parallel computing and compute shaders that use gpus for general-purpose computations beyond graphics. These skills are crucial for GPU-based HPC tasks.
+This repository showcases a basic implementation of rendering a Bezier curve using OpenGL. It serves as an introductory project into OpenGL, covering fundamental OpenGL functions, GLFW for window creation, GLAD for OpenGL loading, and a CMake configuration for project setup.
+
+## Features
+
+- **Bezier Curve Rendering:** Demonstrates the rendering of a simple Bezier curve using OpenGL.
+- **OpenGL Fundamentals:** Utilizes essential OpenGL functions for rendering graphics.
+- **GLFW Window Management:** Implements GLFW for creating and managing the rendering window.
+- **GLAD Integration:** Uses GLAD to handle OpenGL loading and extensions.
+- **CMake Build Configuration:** Includes a CMake file for project compilation and configuration.
+
 ## Setup
 - GLFW:  This is to generate the window. My goal is to learn OpenGL and not waste time one genrating windows therefor this library comes in handy.
 - GLAD: This is to load the opengl from drivers.
@@ -12,7 +20,7 @@ OpenGL, although a powerful graphics library used primarily for rendering 2D and
   ```
 ## Projects
 
-### 1. Basic Bezier Curves
+###Basic Bezier Curves
 
 - Description: Implementation of basic Bezier curves using OpenGL.
 - How to use:
@@ -30,33 +38,5 @@ OpenGL, although a powerful graphics library used primarily for rendering 2D and
       
      ![image](https://github.com/Talhamuhammadali/HPC-OpenGL/assets/46277852/edcec322-7bf4-4742-8845-6957bca1cf87)
 
-    
-### 2. B-Splines
-
-- Description: Extension of the project to handle B-splines.
-- Features:
-  - Rendering and manipulation of B-spline curves.
-  - Comparison with Bezier curves.
-- **Directory:** `B_Splines/`
-  - [More Details](./B_Splines/README.md)
-
-### 3. Surface Form B-Splines
-
-- Description: Implementation of surface form B-splines.
-- Features:
-  - Rendering and manipulation of surface forms.
-  - Exploration of different surface types.
-- **Directory:** `Surface_Form_B_Splines/`
-  - [More Details](./Surface_Form_B_Splines/README.md)
-
-### 4. Parametric Modeling
-
-- Description: Expansion to support parametric surfaces.
-- Features:
-  - Implement parametric surfaces like Torus, Sphere, etc.
-  - User interaction for dynamic surface creation.
-- **Directory:** `Parametric_Modeling/`
-  - [More Details](./Parametric_Modeling/README.md)
-
-This repository serves as a living documentation of my journey into HPC using OpenGL. Each project represents a milestone in my learning process and showcases my growth in the field. Thank you for visiting!
+This repository serves as a living documentation of my journey into HPC using OpenGL. I choose to learn OpenGL first to get a gernal idea of how computations are performed by GPUs. As my understanding grows, I will learn advanced languages such as MPI, OpenMP, CUDA, etc.
 
