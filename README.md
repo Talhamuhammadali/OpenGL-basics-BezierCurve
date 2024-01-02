@@ -38,5 +38,5 @@ This repository showcases a basic implementation of rendering a Bezier curve usi
       
      ![image](https://github.com/Talhamuhammadali/HPC-OpenGL/assets/46277852/edcec322-7bf4-4742-8845-6957bca1cf87)
 
-This repository serves as a living documentation of my journey into HPC using OpenGL. I choose to learn OpenGL first to get a gernal idea of how computations are performed by GPUs. As my understanding grows, I will learn advanced languages such as MPI, OpenMP, CUDA, etc.
+This repository serves as a living documentation of my journey into HPC using OpenGL. I choose to learn OpenGL first to get a general idea of how computations are performed by GPUs. As my understanding grows, I will learn advanced languages such as MPI, OpenMP, CUDA, etc.
 
